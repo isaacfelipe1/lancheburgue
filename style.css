@@ -3,7 +3,7 @@
     padding: 0;
 }
 h1,h3,h2,p{
-    color: #000;;
+     color: #fff;
     text-align: center;
     align-items: center;
     font-size: 17pt;
@@ -71,7 +71,8 @@ header{
     justify-content: center;
     background-position: center;
     margin:0 auto;
-    color: #000;
+     background-color:#EA1D2C ;
+     color: #fff;
 
 }
 #botao{
