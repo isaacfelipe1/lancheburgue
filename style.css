@@ -76,6 +76,19 @@ header{
      color: #fff;
 
 }
+#sucos{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  grid-row-gap: 5px;
+
+}
 #botao{
     background-color: #F5F3F4;
     border-radius: 40px;
