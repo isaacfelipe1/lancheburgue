@@ -11,6 +11,22 @@ h1,h3,h2,p{
 span{
 background-color: #e50021;
 }
+#image01{
+    border-radius: 60px;
+
+}
+#image02{
+    border-radius: 60px;
+
+}
+#image03{
+    border-radius: 60px;
+
+}
+#image04{
+    border-radius: 60px;
+
+}
 
 nav{
     background-color:#F5F3F4;
