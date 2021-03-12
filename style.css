@@ -8,6 +8,10 @@ h1,h3,h2,p{
     align-items: center;
     font-size: 17pt;
 }
+span{
+background-color: #e50021;
+}
+
 nav{
     background-color:#F5F3F4;
     margin-bottom: 0;
@@ -91,19 +95,16 @@ nav ul li a{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fff;
-    margin-right: 50px;
 
-}
-div{
-    align-items: center;
-    text-align: center;
 }
 #bebidas{
     background-color: black;
-    background-color: #EA1D2C;
 }
 span{
-    color: #000;
+    color: #fff;
+    padding: 20px;
+    background-color: #EA1D2C;
+    border-radius: 70px;
 }
 #compreja{
     color: #000;
@@ -145,7 +146,7 @@ h2#ref{
     }
     #conteiner{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr  ;
         grid-template-rows: 1fr 1fr ;
         text-align: center;
         align-items: center;
