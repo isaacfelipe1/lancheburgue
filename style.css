@@ -7,30 +7,29 @@ h1,h3,h2,p{
      color: #FEC704;
     text-align: center;
     align-items: center;
-    font-size: 17pt;
 }
 span{
 background-color: #e50021;
 }
 #image01{
-    border-radius: 60px;
+    border-radius: 30px;
     width: 50%;
 
 }
 #image02{
-    border-radius: 60px;
+    border-radius: 30px;
     width: 50%;
 
 
 }
 #image03{
-    border-radius: 60px;
+    border-radius: 30px;
     width: 50%;
 
 
 }
 #image04{
-    border-radius: 60px;
+    border-radius: 30px;
     width: 50%;
 
 
