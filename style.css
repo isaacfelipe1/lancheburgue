@@ -3,44 +3,43 @@
     padding: 0;
 }
 h1,h3,h2,p{
-    font-family: 'Open Sans', sans-serif;
-     color: #FEC704;
+    color: #FEC704;
     text-align: center;
     align-items: center;
+    font-family: 'Open Sans', sans-serif;
 }
 span{
 background-color: #e50021;
 }
 #image01{
-    border-radius: 30px;
+    border-radius: 60px;
     width: 50%;
 
 }
 #image02{
-    border-radius: 30px;
+    border-radius: 60px;
     width: 50%;
-
-
 }
 #image03{
-    border-radius: 30px;
+    border-radius: 60px;
     width: 50%;
-
-
 }
 #image04{
-    border-radius: 30px;
+    border-radius: 60px;
     width: 50%;
 
-
 }
+
 nav{
     background-color:#F5F3F4;
     margin-bottom: 0;
     padding:10px ;
     text-align: center;
     align-items: center;
-    
+}
+.primeirasection{
+    background-color:#F5F3F4
+
 }
 p{
     text-align: right;
@@ -49,11 +48,18 @@ h1#promocao{
     text-align: left;
 }
 #logo{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     position: relative;
     float:left;
     margin:0;
+}
+.btn{
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
 }
 
 input#pesquisar{
@@ -63,13 +69,16 @@ input#pesquisar{
     text-align: center;
     margin-top: 10px;
 
-    
+}
+input{
+    width: 50%;
 }
 
 body{
     background-color: #fff;
 }
 header{
+    background-color:#EA1D2C ;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -77,9 +86,7 @@ header{
     justify-content: center;
     background-position: center;
     margin:0 auto;
-     background-color:#EA1D2C ;
-     color: #fff;
-
+    color: #fff;
 }
 #sucos{
   display: grid;
@@ -101,7 +108,6 @@ header{
     color: #606066;
     border: #fff;
     
-    
 }
 #conteiner{
     background-color: #EA1D2C;
@@ -120,7 +126,6 @@ nav ul li a{
     list-style: none;
     text-decoration: none;
 }
-
 #conteiner{
     display: grid;
     grid-template-columns: 1fr 1fr ;
@@ -131,42 +136,54 @@ nav ul li a{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fff;
-     grid-row-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: center;
 
 }
-    #bebidas{
-    background-color:#fff;
+#corestabela{
+    background-color:#fff ;
+}
+#bebidas{
+    display: inline;
+    background-color:#F5F3F4;
     color: #000;
-    
+
 }
 
 span{
     color: #fff;
     padding: 10px;
     background-color: #EA1D2C;
-    border-radius: 50px;
+    border-radius: 70px;
+}
+h2#ref{
+    background-color:#F5F3F4 ;
 }
 #compreja{
     color: #000;
     align-items: center;
     text-align: center;
-     background-color:  #F5F3F4;
+    background-color:  #F5F3F4;
 }
 #compreja img{
     align-items: center;
     align-items: center;
 }
 footer{
-    background-color:#F5F3F4 ;
+
+    background-color:#EA1D2C ;
     padding: 30px;
     margin: 0;
     margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    align-items: center;
 }
 h2#ref{
     color: #000;
     background-color: #fff;
 }
-@media screen and (min-width:800px){
+@media screen and (min-width:1200px){
     header{
         height: 600px;
         height: 60vh;
@@ -194,7 +211,54 @@ h2#ref{
         background-position: center;
         background-repeat: no-repeat;
         background-color: #fff;
-        margin-right: 50px;
+        margin-right: 90px;
+        justify-content: center;
     
+    }
+    #image01{
+        border-radius: 60px;
+        width: 30%;
+        
+    
+    }
+    #image02{
+        border-radius: 60px;
+        width: 30%;
+    
+    }
+    #image03{
+        border-radius: 60px;
+        width: 30%;
+    }
+    #image04{
+        border-radius: 60px;
+          width: 30%;
+    }
+    #logo{
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        margin:0;
+        position: absolute;
+    }
+    footer{
+    
+        background-color:#EA1D2C ;
+        padding: 30px;
+        margin-bottom: 0;
+        color: #fff;
+        align-items: center;
+        text-align: center;
+    }
+    nav ul li{
+        background-color:#F5F3F4;
+        margin-bottom: 0;
+        padding:10px ;
+        text-align: end;
+        align-items: inherit;
+    }
+    nav{
+        padding: 30px;
     }
 }
